@@ -1,5 +1,4 @@
 class CashRegister
-  
 
   attr_accessor :items, :discount, :total, :last_transaction
 
@@ -29,6 +28,4 @@ class CashRegister
   def void_last_transaction
     self.total = self.total - self.last_transaction
   end
-=======
->>>>>>> a15a9b6f4f98691d8673f1d2ee61d56014129d26
 end
